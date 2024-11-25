@@ -320,15 +320,15 @@
 
     <Alert
         onlyShowID={"donatee:_2"}
-        text={"PenguinMod is a free-to-use visual coding website. Your support can help us keep the website working!"}
+        text={"OrangeMod is a free-to-use visual coding website based of PenguinMod."}
         textBreakup={true}
         textColor={"white"}
         hasImage={true}
         imgSrc={"/happy.svg"}
         imgAlt={":D"}
-        hasButton={true}
-        buttonText={"Donate"}
-        buttonHref={"/donate"}
+        hasButton={false}
+        buttonText={""}
+        buttonHref={""}
     />
     <StatusAlert />
 
@@ -344,7 +344,7 @@
                 </h1>
                 <h1>
                     <LocalizedText
-                        text="Built off of TurboWarp and Scratch"
+                        text="Built off of TurboWarp, Scratch and PenguinMod"
                         key="home.introduction2"
                         dolink={true}
                         lang={currentLang}
@@ -395,7 +395,7 @@
                 />
                 <p>
                     <LocalizedText
-                        text="PenguinMod is made by English-speaking developers. Expect minor issues and sorry for any translation errors."
+                        text="OrangeMod is made by English-speaking developers. Expect minor issues and sorry for any translation errors."
                         key="translation.warning"
                         lang={currentLang}
                     />
@@ -445,7 +445,7 @@
             />
             <p>
                 <LocalizedText
-                    text="PenguinMod is made by English-speaking developers. Expect minor issues and sorry for any translation errors."
+                    text="OrangeMod is made by English-speaking developers. Expect minor issues and sorry for any translation errors."
                     key="translation.warning"
                     lang={currentLang}
                 />
@@ -1127,7 +1127,7 @@
     }
 
     .section-info {
-        background: #00c3ffad;
+        background: #ff9231ad;
         height: 24rem;
         color: white;
         display: flex;

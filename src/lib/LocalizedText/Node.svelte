@@ -26,7 +26,7 @@
 
         if (dolink) {
             shouldHTML = true;
-            displayText = displayText.replace(/TurboWarp|Turbowarp|Scratch/gm, (value) => {
+            displayText = displayText.replace(/TurboWarp|Turbowarp|Scratch|PenguinMod/gm, (value) => {
                 let url = "";
                 switch (value) {
                     case "TurboWarp":
@@ -34,6 +34,9 @@
                         break;
                     case "Scratch":
                         url = "https://scratch.mit.edu/";
+                        break;
+                    case "PenguinMod":
+                        url = "https://penguinmod.com";
                         break;
                 }
                 return `<a href="${url}" target="_blank" style="color: inherit">${value}</a>`;

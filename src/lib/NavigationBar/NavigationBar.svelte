@@ -435,10 +435,10 @@
 
 <style>
 	:root {
-		--penguinmod-color: #00c3ff;
+		--penguinmod-color: #ff9231;
 	}
 	:global(body.dark-mode) {
-		--penguinmod-color: #009ccc;
+		--penguinmod-color: #cc8100;
 	}
 
 	.bar {

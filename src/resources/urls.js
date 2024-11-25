@@ -90,7 +90,10 @@ export default {
      * TurboWarp's website
      */
     turbowarp: "https://turbowarp.org",
-
+    /**
+     * PenguinMod's website
+     */
+    penguinmod: "https://penguinmod.com",
     /**
      * PenguinMod's github page
      */
