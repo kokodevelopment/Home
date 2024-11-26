@@ -853,7 +853,7 @@
     }
 
     .section-info {
-        background: #00c3ffad;
+        background: #ff9231ad;
         height: 8rem;
         color: white;
         display: flex;
