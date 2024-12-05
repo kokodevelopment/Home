@@ -74,6 +74,7 @@
     "search.filter.posts": "Posts",
     "profile.doesntexist": "This user was not found. A user must have 1 uploaded project to view their profile.",
     "profile.badge.admin": "Administrator",
+    "profile.badge.kokofixcomputers": "kokofixcomputers",
     "profile.badge.approver": "Project Approver",
     "profile.badge.dev": "Website Developer",
     "profile.badge.featured": "Featured Creator",
