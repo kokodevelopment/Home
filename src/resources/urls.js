@@ -79,7 +79,7 @@ export default {
     /**
      * PenguinMod's Discord invite
      */
-    discord: "https://discord.gg/NZ9MBMYTZh",
+    discord: "https://discord.gg/GQd3DrxXyj",
 
     /**
      * Scratch's website
@@ -102,7 +102,7 @@ export default {
     /**
      * PenguinMod's basic API
      */
-    basicApi: "https://basic-api.penguinmod.com/",
+    basicApi: "https://basic-api.kokodev.cc/",
 
     /**
      * The admin panel for pm projects api
