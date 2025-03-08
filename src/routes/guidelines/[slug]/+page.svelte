@@ -41,14 +41,14 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Uploading Guidelines</title>
-    <meta name="title"                   content="PenguinMod - Uploading Guidelines" />
-    <meta property="og:title"            content="PenguinMod - Uploading Guidelines" />
-    <meta property="twitter:title"       content="PenguinMod - Uploading Guidelines">
-    <meta name="description"             content="PenguinMod's official rules on uploaded projects">
-    <meta property="twitter:description" content="PenguinMod's official rules on uploaded projects">
-    <meta property="og:url"              content="https://penguinmod.com/guidelines/uploading">
-    <meta property="twitter:url"         content="https://penguinmod.com/guidelines/uploading">
+    <title>OrangeMod - Uploading Guidelines</title>
+    <meta name="title"                   content="OrangeMod - Uploading Guidelines" />
+    <meta property="og:title"            content="OrangeMod - Uploading Guidelines" />
+    <meta property="twitter:title"       content="OrangeMod - Uploading Guidelines">
+    <meta name="description"             content="OrangeMod's official rules on uploaded projects">
+    <meta property="twitter:description" content="OrangeMod's official rules on uploaded projects">
+    <meta property="og:url"              content="https://pm.kokodev.cc/guidelines/uploading">
+    <meta property="twitter:url"         content="https://pm.kokodev.cc/guidelines/uploading">
 </svelte:head>
 
 <div class="container">
@@ -63,17 +63,17 @@
     
     :global(h1),
     :global(h2) {
-        color: rgb(0, 102, 255);
+        color: rgb(255, 140, 0);
     }
     :global(a) {
-        color: rgb(30, 83, 255);
+        color: rgb(255, 131, 30);
     }
 
     :global(body.dark-mode) :global(h1),
     :global(body.dark-mode) :global(h2) {
-        color: rgb(93, 174, 255);
+        color: rgb(255, 169, 93);
     }
     :global(body.dark-mode) :global(a) {
-        color: dodgerblue;
+        color: rgb(255, 154, 30);
     }
 </style>

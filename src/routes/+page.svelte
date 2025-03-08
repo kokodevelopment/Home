@@ -302,14 +302,14 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Home</title>
-    <meta name="title" content="PenguinMod - Home" />
-    <meta property="og:title" content="PenguinMod - Home" />
-    <meta property="twitter:title" content="PenguinMod - Home">
+    <title>OrangeMod - Home</title>
+    <meta name="title" content="OrangeMod - Home" />
+    <meta property="og:title" content="OrangeMod - Home" />
+    <meta property="twitter:title" content="OrangeMod - Home">
     <meta name="description" content="The area where featured projects and community stuff & info is shown.">
     <meta property="twitter:description" content="The area where featured projects and community stuff & info is shown.">
-    <meta property="og:url" content="https://penguinmod.com/">
-    <meta property="twitter:url" content="https://penguinmod.com/">
+    <meta property="og:url" content="https://pm.kokodev.cc/">
+    <meta property="twitter:url" content="https://pm.kokodev.cc/">
     <meta name="google-site-verification" content="07oAYybKa_CH2le7AvPJkNNtwhZSq_G0V4d9P7AIZYE" />
 </svelte:head>
 
@@ -1074,12 +1074,12 @@
         /* border-top-right-radius: 20%; */
     }
     .footer a {
-        color: dodgerblue;
+        color: rgb(255, 158, 30);
         font-weight: normal;
         margin: 2px 0px;
     }
     .footer a:active {
-        color: rgb(15, 77, 139);
+        color: rgb(139, 58, 15);
     }
     .footer-list {
         display: flex;
@@ -1179,7 +1179,7 @@
     .section-toggle-button {
         border-radius: 1024px;
         padding: 4px 10px;
-        background: #008cff;
+        background: #ffa200;
         font-weight: bold;
         font-size: 1em;
         border: 0;
@@ -1188,7 +1188,7 @@
         cursor: pointer;
     }
     .section-toggle-button[data-active="true"] {
-        background: #003bdd;
+        background: #dd7200;
     }
 
     .profile-picture {
