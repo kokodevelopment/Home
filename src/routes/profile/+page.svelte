@@ -198,7 +198,7 @@
         return title.replace(emojiRegex, (match) => {
             const emojiName = match.replace(/\:/gmi, "");
             return `<img
-                src="https://library.penguinmod.com/files/emojis/${emojiName}.png"
+                src="https://object-libraries.vercel.app/files/emojis/${emojiName}.png"
                 alt=":${emojiName}:"
                 title=":${emojiName}:"
                 style="width:1.2rem;vertical-align: middle;"
@@ -675,7 +675,7 @@
             newText = newText.replace(regexRules.emoji, function(text) {
                 const emojiName = text.replace(/:/gmi, '');
                 return `<img
-                    src="https://library.penguinmod.com/files/emojis/${emojiName}.png"
+                    src="https://object-libraries.vercel.app/files/emojis/${emojiName}.png"
                     alt="${emojiName}"
                     title=":${emojiName}:"
                     class="profile-bio-emoji"
@@ -958,7 +958,7 @@
                                     class="emoji-picker-button"
                                 >
                                     <img
-                                        src={`https://library.penguinmod.com/files/emojis/${emojiPickerRandomEmoji}.png`}
+                                        src={`https://object-libraries.vercel.app/files/emojis/${emojiPickerRandomEmoji}.png`}
                                         alt="Emoji"
                                         title="Pick an emoji"
                                         on:dragstart={(ev) => {
@@ -1013,7 +1013,7 @@
                                                             on:click={() => placeEmojiInTextbox(emoji)}
                                                         >
                                                             <img
-                                                                src={`https://library.penguinmod.com/files/emojis/${emoji}.png`}
+                                                                src={`https://object-libraries.vercel.app/files/emojis/${emoji}.png`}
                                                                 alt={`:${emoji}:`}
                                                                 title={`:${emoji}:`}
                                                                 draggable="false"

@@ -504,7 +504,7 @@
                 class="emoji-picker-button"
             >
                 <img
-                    src={`https://library.penguinmod.com/files/emojis/${emojiPickerRandomEmoji}.png`}
+                    src={`https://object-libraries.vercel.app/files/emojis/${emojiPickerRandomEmoji}.png`}
                     alt="Emoji"
                     title="Pick an emoji"
                     on:dragstart={(ev) => {
@@ -559,7 +559,7 @@
                                         on:click={() => placeEmojiInTextbox(emoji)}
                                     >
                                         <img
-                                            src={`https://library.penguinmod.com/files/emojis/${emoji}.png`}
+                                            src={`https://object-libraries.vercel.app/files/emojis/${emoji}.png`}
                                             alt={`:${emoji}:`}
                                             title={`:${emoji}:`}
                                             draggable="false"

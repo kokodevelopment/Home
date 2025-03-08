@@ -29,7 +29,7 @@
         return title.replace(emojiRegex, (match) => {
             const emojiName = match.replace(/\:/gmi, "");
             return `<img
-                src="https://library.penguinmod.com/files/emojis/${emojiName}.png"
+                src="https://object-libraries.vercel.app/files/emojis/${emojiName}.png"
                 alt=":${emojiName}:"
                 title=":${emojiName}:"
                 style="width:1em;vertical-align: middle;"
@@ -143,14 +143,14 @@
                 if (/^\d{6,}$/.test(id)) {
                     return `<a href="/project/${id}" target="_blank">#${id}</a>`;
                 }
-                return `<a href="https://penguinmod.com/search?q=%23${id}">#${id}</a>`;
+                return `<a href="https://pm.kokodev.cc/search?q=%23${id}">#${id}</a>`;
             });
             textChanged = true;
         }
         if (newText.match(regexRules.user)) {
             newText = newText.replace(regexRules.user, function(name) {
                 name = name.replace('@', '');
-                return `<a href="https://penguinmod.com/profile?user=${name}">@${name}</a>`;
+                return `<a href="https://pm.kokodev.cc/profile?user=${name}">@${name}</a>`;
             });
             textChanged = true;
         }
@@ -158,7 +158,7 @@
             newText = newText.replace(regexRules.emoji, function(text) {
                 const emojiName = text.replace(/:/gmi, '');
                 return `<img
-                    src="https://library.penguinmod.com/files/emojis/${emojiName}.png"
+                    src="https://object-libraries.vercel.app/files/emojis/${emojiName}.png"
                     alt="${emojiName}"
                     title=":${emojiName}:"
                     class="profile-bio-emoji"
