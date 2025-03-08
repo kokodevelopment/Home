@@ -727,22 +727,22 @@
         height: 100px;
         border-radius: 6px;
         border-style: dashed;
-        border-color: rgba(0, 162, 255, 0.15);
+        border-color: rgba(255, 157, 0, 0.15);
         border-width: 2px;
     }
     textarea:focus {
-        border-color: rgba(0, 162, 255, 0.35);
+        border-color: rgba(255, 136, 0, 0.35);
         outline: none;
     }
     input[type="text"] {
         width: 90%;
         border-radius: 6px;
-        border-color: rgba(0, 162, 255, 0.15);
+        border-color: rgba(255, 145, 0, 0.15);
         border-width: 2px;
         border-style: dashed;
     }
     input[type="text"]:focus {
-        border-color: rgba(0, 162, 255, 0.35);
+        border-color: rgba(255, 162, 0, 0.35);
         outline: none;
     }
 
@@ -767,7 +767,7 @@
     }
 
     .section-info {
-        background: #00c3ffad;
+        background: #ff9231ad;
         height: 6rem;
         color: white;
         display: flex;
@@ -947,7 +947,7 @@
 
     .file-picker {
         display: block;
-        background-color: #00c3ff;
+        background-color: #ff8c00;
         color: white;
         border-radius: 1000px;
         width: 100%;
@@ -1032,7 +1032,7 @@
     .guidelines-link {
         background: transparent;
         border: 0;
-        color: dodgerblue;
+        color: rgb(255, 128, 30);
         text-decoration: underline;
         cursor: pointer;
     }
