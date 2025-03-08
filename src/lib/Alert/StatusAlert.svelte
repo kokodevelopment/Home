@@ -27,6 +27,10 @@
             });
         });
     });
+
+    const defaultButtonText = "Details";
+    const defaultButtonHref = "https://status.penguinmod.com/";
+    const defaultHasButton = true;
 </script>
 
 {#if currentStatus.updates.length > 0}
@@ -35,9 +39,9 @@
             text={update.text}
             backColor={update.type === "warn" ? "#ffd900" : update.type === "error" ? "#ff0000" : "#00ff00"}
             textColor="black"
-            hasButton={true}
-            buttonText="Details"
-            buttonHref={"https://status.penguinmod.com/"}
+            hasButton={update.hasButton !== undefined ? update.hasButton : defaultHasButton}
+            buttonText={update.buttonText || defaultButtonText}
+            buttonHref={update.buttonHref || defaultButtonHref}
             buttonTooLight={true}
         />
     {/each}
