@@ -470,14 +470,14 @@
                     "home.sections.whatsnew",
                     currentLang
                 )}
-                seemore={`https://discord.com/channels/1033551490331197462/1038252360184643674`}
+                seemore={`#`}
             >
                 <div class="category-content">
                     {#if updates.length > 0}
                         {#each updates as update}
                             <UserDisplay
-                                link={`https://discord.com/channels/1033551490331197462/1038252360184643674`}
-                                userLink={`https://discord.com/channels/1033551490331197462/1038252360184643674`}
+                                link={`#`}
+                                userLink={`#`}
                                 text={update.cleanContent}
                                 author={update.authorName}
                                 image={update.authorImage}
