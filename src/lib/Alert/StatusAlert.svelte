@@ -36,7 +36,7 @@
 {#if currentStatus.updates.length > 0}
     {#each currentStatus.updates as update}
         <Alert
-            imgSrc={update.type === "error" ? "/alert_icon_light.svg" : "/alert_icon.svg"}
+            imgSrc={update.type === "error" ? "/alert_icon_white.svg" : "/alert_icon.svg"}
             text={update.text}
             backColor={update.type === "warn" ? "#ffd900" : update.type === "error" ? "#ff0000" : "#00ff00"}
             textColor={update.type === "error" ? "white" : "black"}
