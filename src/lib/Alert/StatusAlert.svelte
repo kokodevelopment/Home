@@ -38,7 +38,7 @@
         <Alert
             text={update.text}
             backColor={update.type === "warn" ? "#ffd900" : update.type === "error" ? "#ff0000" : "#00ff00"}
-            textColor="black"
+            textColor={update.type === "error" ? "white" : "black"}
             hasButton={update.hasButton !== undefined ? update.hasButton : defaultHasButton}
             buttonText={update.buttonText || defaultButtonText}
             buttonHref={update.buttonHref || defaultButtonHref}
