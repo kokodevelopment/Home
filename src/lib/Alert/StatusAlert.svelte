@@ -42,7 +42,7 @@
             hasButton={update.hasButton !== undefined ? update.hasButton : defaultHasButton}
             buttonText={update.buttonText || defaultButtonText}
             buttonHref={update.buttonHref || defaultButtonHref}
-            buttonTooLight={false}
+            buttonTooLight={update.type === "error" ? true : false}
         />
     {/each}
 {/if}
